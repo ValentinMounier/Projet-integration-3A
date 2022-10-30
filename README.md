@@ -13,3 +13,12 @@ catkin build
 ```
 source /devel/setup.bash
 ```
+- Lancer la simulation :
+
+```
+roslaunch yaskawa_moveit_config demo.launch
+```
+- Ouvrir un deuxième terminal, sourcer le projet, puis lancer le script :
+```
+python3 src/script_python/pick_and_place.py
+```
